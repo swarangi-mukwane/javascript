@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://wallpapers.com/images/hd/nature-blur-background-x6nsya3onqq6pbwh.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    color: white;
+       
+}
+ .hero h1{
+    text-align: justify;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+.timebox{
+    display: flex;
+    gap: 90px;
+}
+.time{
+    text-align: center;
+}
+.time h2{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
